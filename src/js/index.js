@@ -1,3 +1,5 @@
+import { initCart } from "./cart";
+
 const Catalog = [{ id: 1, marca: 'Zara', nome: 'Camisa Larga com Bolsos', preco: 70, imagem: 'product-1.jpg', feminino: false, },
 { id: 2, marca: 'Zara', nome: 'Casaco Reto com Lã', preco: 85, imagem: 'product-2.jpg', feminino: true, }, 
 { id: 3, marca: 'Zara', nome: 'Jaqueta com Efeito Camurça', preco: 60, imagem: 'product-3.jpg', feminino: false, },
@@ -21,4 +23,4 @@ document.getElementById("container-product").innerHTML += cardProduct;
 }
 
 
-
+initCart();
