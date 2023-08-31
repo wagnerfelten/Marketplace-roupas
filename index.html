@@ -15,21 +15,37 @@
 </head>
 
 <body>
+
+ 
+
   <header class="header-container">
     <h1><span> Zara </span>Loja de roupas</h1>
 
     <div>
       <button>Histórico</button>
-      <button class="buttonCarImg"><img src="./src/assets/img/carinho.png" alt="carinho de compras"> Carrinho</button>
+      <button class="buttonCarImg" id="open"><img src="./src/assets/img/carinho.png" alt="carinho de compras"> Carrinho</button>
     </div>
   </header>
+
+  <section id="cart-container hide">
+    <div class="cart-header hide">
+      <h1>Meu carrinho</h1>
+      <button id="closer">X</button>
+    </div>
+    <div class="cart-content hide">
+      <p>produto</p>
+      <p>Total: R$ 200</p>
+      <button class="completed-purchase">Finalizar compra</button>
+    </div>
+  </section>
+
   <main>
     <section id="container-product">
 
     </section>
   </main>
 
-  <script src="./src/js/index.js"></script>
+  <script type="module" src="./src/js/index.js"></script>
 </body>
 
 </html>
